@@ -10,7 +10,7 @@ This is my personal portfolio
 
 
 ### GH Pages Link
-[Live Link](https://www.example.com)
+[Live Link](https://nehemiahlimo.github.io/portfolio/)
 
 Copyright &copy; 2024 - Nehemiah Limo
 

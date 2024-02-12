@@ -65,6 +65,43 @@ body {
   background-color: #f2f2f2; /* Change this to your desired highlight color */
   cursor: pointer; /* Change this to 'pointer' to indicate interactive element */
 }
-
+/* Reset basic styles for navigation elements */
+nav {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block; /* Make list items display side-by-side */
+    margin: 10px; /* Add some spacing between navigation links */
+  }
+  
+  nav a {
+    text-decoration: none; /* Remove default underline from links */
+    color: black; /* Set initial link color */
+    font-weight: bold; /* Add some weight to navigation text */
+  }
+  
+  nav a:hover {
+    color: #007bff; /* Change link color on hover */
+  }
+  
+  /* Add a background color and optional border */
+  nav {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Center the navigation links horizontally */
+  nav ul {
+    text-align: center;
+  }
+  
   
   

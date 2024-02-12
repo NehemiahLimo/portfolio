@@ -108,6 +108,13 @@ nav {
     width: 80%; /* Adjust width as needed */
     padding: 20px; /* Optional padding around content */
   }
+
+  footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
   
   
   

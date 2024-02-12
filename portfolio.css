@@ -102,6 +102,12 @@ nav {
   nav ul {
     text-align: center;
   }
+
+  #container {
+    margin: 0 auto; /* Centers horizontally */
+    width: 80%; /* Adjust width as needed */
+    padding: 20px; /* Optional padding around content */
+  }
   
   
   

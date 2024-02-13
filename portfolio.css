@@ -238,7 +238,48 @@ nav {
       margin-bottom: 15px;
     }
   }
+/* Add this to your existing portfolio.css file or create a new one */
+
+#contact {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+  }
   
+  .contact-card {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .contact-card p {
+    font-size: 18px;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .contact-card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact-card li {
+    margin-bottom: 10px;
+  }
+  
+  .contact-card a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .contact-card a:hover {
+    color: #007bff;
+  }
+    
   
   
   

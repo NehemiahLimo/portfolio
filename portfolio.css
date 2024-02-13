@@ -115,6 +115,16 @@ nav {
     text-align: center;
     color: white;
   }
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust number of columns */
+    grid-gap: 20px; /* Add spacing between cards */
+  }
+  
+  .project-card {
+    /* Same styles as mentioned in previous approach */
+  }
+  
   
   
   

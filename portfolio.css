@@ -151,6 +151,60 @@ nav {
     text-decoration: none;
     border-radius: 4px;
   }
+
+  /* Add this to your existing portfolio.css file or create a new one */
+
+#experience {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+  }
+  
+  .experience-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experience-item h3 {
+    color: #007bff;
+  }
+  
+  .experience-item p {
+    margin-bottom: 15px;
+  }
+  
+  .experience-item ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .experience-item li {
+    margin-bottom: 10px;
+  }
+  
+  /* Additional styling for date and list items */
+  .experience-item p {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .experience-item ol {
+    list-style-type: circle;
+    margin-left: 20px;
+  }
+  
+  .experience-item ol li {
+    margin-bottom: 5px;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .experience-item {
+      margin-bottom: 20px;
+    }
+  }
+  
   
   
   

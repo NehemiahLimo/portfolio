@@ -115,14 +115,41 @@ nav {
     text-align: center;
     color: white;
   }
-  .project-grid {
+  /* Add this to your existing portfolio.css file or create a new one */
+
+.project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust number of columns */
-    grid-gap: 20px; /* Add spacing between cards */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
   }
   
   .project-card {
-    /* Same styles as mentioned in previous approach */
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .project-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .project-card h3 {
+    margin-top: 10px;
+  }
+  
+  .project-card p {
+    margin-top: 10px;
+  }
+  
+  .project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
   }
   
   
